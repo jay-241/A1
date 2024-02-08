@@ -1,0 +1,122 @@
+.login-container {
+    display: flex;
+    flex-direction: row; 
+    min-height: 100vh;
+  }
+  
+  .login-image {
+    width: 50%;
+    height: 100vh;
+    background: url('../assets/My.jpg') center/cover no-repeat;
+  }
+  
+  .login-form {
+    width: 50%;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    padding: 1rem;
+  }
+  
+  .form-container {
+    width: 100%; /* Responsive adjustment */
+    max-width: 400px; /* Prevents form from stretching too wide on larger screens */
+    margin: 0 auto;
+    padding: 2rem;
+    border-radius: 8px;
+    box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1);
+    background-color: #ffffff;
+    text-align: center;
+  }
+  
+  .login-form .form-label {
+    display: block;
+    margin-bottom: 0.5rem;
+    text-align: left;
+  }
+  
+  .login-form input {
+    width: 100%;
+    padding: 0.75rem;
+    border: 1px solid #ccc;
+    border-radius: 4px;
+    margin-bottom: 1rem;
+  }
+  
+  .login-form button {
+    padding: 0.75rem;
+    color: #fff;
+    background-color: #007bff;
+    border: none;
+    border-radius: 4px;
+    cursor: pointer;
+  }
+  
+  .login-form button:hover {
+    background-color: #0056b3;
+  }
+  
+  .forgot-password-link,
+  .create-account-link {
+    color: #007bff;
+    text-decoration: none;
+  }
+  
+  .forgot-password-link:hover,
+  .create-account-link:hover {
+    text-decoration: underline;
+  }
+  
+  .text-danger {
+    color: #dc3545;
+    font-size: 0.875em;
+    margin-top: -0.5rem;
+  }
+  
+  .welcome-text {
+    text-align: left;
+    margin-bottom: 2rem;
+    font-size: 1.5rem;
+  }
+  
+  /* For tablets and below */
+@media (max-width: 1024px) {
+  .login-container {
+    flex-direction: column;
+    align-items: center; /* Center the content for smaller screens */
+  }
+
+  .login-image,
+  .login-form {
+    width: 100%; /* Full width for smaller screens */
+    height: auto; /* Adjust height for login-image */
+    padding: 0; /* Remove padding if any */
+  }
+
+  .login-image {
+    order: 2; /* Optionally change the order if you want the form to appear before the image */
+  }
+
+  .form-container {
+    max-width: 90%; /* Increase width in smaller screens for better use of space */
+  }
+}
+
+/* For mobile phones and below */
+@media (max-width: 768px) {
+  .login-image {
+    display: none; /* Optionally hide the image on very small screens */
+  }
+
+  .form-container {
+    padding: 1rem; /* Reduce padding on very small screens */
+    max-width: 100%; /* Use the full width for the form */
+  }
+
+  .welcome-text,
+  .login-form .form-label,
+  .login-form input,
+  .login-form button {
+    font-size: smaller; /* Adjust font sizes for smaller screens */
+  }
+}
