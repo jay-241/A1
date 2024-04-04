@@ -1,10 +1,10 @@
 # Assignment 3
 
 * *Date Created*: 25 MARCH 2024
-* *Last Modification Date*: 03 APRIL 2024
-* *Assignment Login Page URL*: <https://parkflex.netlify.app/>
-* *Assignment Registration Page URL*: <https://parkflex1.netlify.app/>
-* *Git URL*: <https://git.cs.dal.ca/ketulp/csci-5709-grp-09>
+* *Last Modification Date*: 04 APRIL 2024
+* *Project Deployment URL*: <https://park-flex.netlify.app/>
+* *Project Git URL*: <https://git.cs.dal.ca/ketulp/csci-5709-grp-09>
+* *Individual Git URL*: <https://git.cs.dal.ca/ketulp/csci-5709-grp-09/-/tree/jay_rana?ref_type=heads>
 
 ## Authors
 
